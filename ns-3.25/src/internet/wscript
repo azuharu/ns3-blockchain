@@ -366,7 +366,13 @@ def build(bld):
         'model/rip.h',
         'model/rip-header.h',
         'helper/rip-helper.h',
+        # add bitcoin
         'helper/ipv4-address-helper-custom.h',
+        # add quic
+        'model/ipv4-end-point.h',
+        'model/ipv4-end-point-demux.h',
+        'model/ipv6-end-point.h',
+        'model/ipv6-end-point-demux.h',
        ]
 
     if bld.env['NSC_ENABLED']:
